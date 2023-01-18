@@ -7,6 +7,7 @@ import He_3 from "../../images/home_beauty.jpg";
 import { useProducts } from "../context/product";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import Banner1 from "../../images/banner1.jpg";
 
 const Home = () => {
   const [products, setProducts] = useProducts();
