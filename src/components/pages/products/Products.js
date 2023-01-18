@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "../../card/Card";
 import { useProducts } from "../../context/product";
-import Banner1 from "../../images/banner1.jpg";
+
 
 const Products = () => {
   const [products, setProducts] = useProducts();
