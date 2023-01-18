@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "../../card/Card";
 import { useProducts } from "../../context/product";
+import Banner1 from "../../images/banner1.jpg";
 
 const Products = () => {
   const [products, setProducts] = useProducts();
@@ -45,6 +46,8 @@ const Products = () => {
 
   return (
     <>
+    <img className="banner-image" src={Banner1} alt="banner" />
+    
       <div className="row">
         <div className="col-md-3 mt-3">
           <h4 className="text-center">FILTERS</h4>
