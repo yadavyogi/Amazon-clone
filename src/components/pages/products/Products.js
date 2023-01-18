@@ -46,7 +46,7 @@ const Products = () => {
 
   return (
     <>
-    <img className="banner-image" src={Banner1} alt="banner" />
+   
     
       <div className="row">
         <div className="col-md-3 mt-3">
