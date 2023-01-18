@@ -1,0 +1,42 @@
+body{
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  min-width: 1000px;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout main {
+  flex-grow: 1;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 0 10px !important;
+}
+
+.home{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.banner-image{
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  z-index: -1;
+  margin-bottom: -250px;
+}
+
+.cards-pos{
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.pointer{
+  cursor: pointer;
+}

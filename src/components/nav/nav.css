@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+.header-logo {
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 14px;
+}
+.header-search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-option {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-one {
+  font-size: 10px;
+}
+
+.option-two {
+  font-size: 13px;
+  font-weight: 800;
+}
