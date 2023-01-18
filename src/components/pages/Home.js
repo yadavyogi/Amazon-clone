@@ -17,6 +17,7 @@ const Home = () => {
       <img className="banner-image" src={Banner1} alt="banner" />
       <div className="container row cards-pos mb-5 ">
         <div className="col-md-4 my-1">
+           <img className="banner-image" src={Banner1} alt="banner" />
           <div
             className="card pointer p-3"
             onClick={() => navigate("/products")}
